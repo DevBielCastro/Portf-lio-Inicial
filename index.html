@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio Pessoal - Desenvolvedor Web">
+  <title>Meu Portfólio</title>
+  <!-- Link para o CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção Sobre -->
+    <section id="about">
+      <h1>Olá, sou Gabriel Castro</h1>
+      <p>Sou um desenvolvedor web apaixonado por criar soluções incríveis.</p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+      <h2>Projetos Recentes</h2>
+      <div id="project-list"></div> <!-- Lista de projetos será carregada por JavaScript -->
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+      <h2>Entre em Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Carlos Gabriel Curioso de Castro. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Link para o JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
